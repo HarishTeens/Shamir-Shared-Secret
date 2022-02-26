@@ -38,3 +38,8 @@ y1=> 1 ; y2=> 3
 
 while reversing to find slope, doing
 (y2-y1)%256/(x2-x1) would get the slope!!!
+
+
+### Improvements
+1. Take user input from cli
+2. figure out a way to map numbers to strings

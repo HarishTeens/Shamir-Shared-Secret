@@ -6,17 +6,6 @@ const MAX = 255
 //     output: process.stdout
 // })
 
-
-
-const readInput = (questionText) => {
-    // readline.question(questionText, secret => {
-    //     console.log(`The entered secret is: ${secret}`)
-    //     readline.close()
-    // })
-}
-
-
-
 const generateRandom = (min = MIN, max = MAX) => {
     return Math.floor(
         Math.random() * (max - min) + min
